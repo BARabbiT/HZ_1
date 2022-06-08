@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0ce9cfff62cfb4d9d0b4ef77115a44, type: 3}
+  m_Name: GroundData
+  m_EditorClassIdentifier: 
+  Type: 2
+  IsExternal: 0
+  Max: -0.78
+  Min: -0.8
+  TypeBase: 0
+  NoiseFilter: {fileID: 0}
+  Material: {fileID: 2100000, guid: ef0a228c18e640c4db2fdfb8fadae6e5, type: 2}
+  ShaderHeightName: _Ground_Height
+  RequredObjects: []
+  HiiVerObjects: []
+  MiddVerObjects: []
+  LowVerObjects: []

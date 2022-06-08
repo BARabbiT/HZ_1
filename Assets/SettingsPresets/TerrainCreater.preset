@@ -1,0 +1,855 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerrainCreater
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 729e67aea69733a489d0cce12893acb8, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: objects.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: objects.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TextCanvas
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: width
+    value: 512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cellSize
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: meshScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightPlus
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: subMapColorized
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.r
+    value: 0.745283
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.g
+    value: 0.6383511
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.b
+    value: 0.18632075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.r
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.g
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.b
+    value: 0.13033998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.r
+    value: 0.27434677
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.g
+    value: 0.5377358
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.b
+    value: 0.088777125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.r
+    value: 0.26726592
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.g
+    value: 0.33884132
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.b
+    value: 0.3962264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime1
+    value: 2636
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime2
+    value: 4331
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime3
+    value: 25423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime4
+    value: 35278
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime5
+    value: 21531
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime1
+    value: 2511
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime2
+    value: 5147
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime3
+    value: 25486
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime4
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime5
+    value: 24479
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime6
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.m_NumAlphaKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rawImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mapNoise
+    value: 
+    objectReference: {fileID: 11400000, guid: 483a86ff0ff47f544b6290f33e63b9e9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: biomesData.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: biomesData.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: ca6ee6bec6922c44780e846cd68c85ee, type: 2}
+  - target: {fileID: 0}
+    propertyPath: biomesData.Array.data[1]
+    value: 
+    objectReference: {fileID: 11400000, guid: bf34605ecfe33f5449ac588e0b682fee, type: 2}
+  - target: {fileID: 0}
+    propertyPath: biomesData.Array.data[2]
+    value: 
+    objectReference: {fileID: 11400000, guid: 5f214eb86e4e45e448f5b076cab17593, type: 2}
+  - target: {fileID: 0}
+    propertyPath: biomesData.Array.data[3]
+    value: 
+    objectReference: {fileID: 11400000, guid: 3520500dcbbf77642951fb835fc1d0cc, type: 2}
+  - target: {fileID: 0}
+    propertyPath: biomesData.Array.data[4]
+    value: 
+    objectReference: {fileID: 11400000, guid: 00c2f4249f17f2b438eba0765f162f48, type: 2}
+  - target: {fileID: 0}
+    propertyPath: seed
+    value: 68292
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: amplitudeHieghtRiver
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: amplitudeWidthRiver
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: countRiver
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: firstPointHeightDelta.x
+    value: 0.5252427
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: firstPointHeightDelta.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].time
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].inSlope
+    value: -0.55505204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].outSlope
+    value: -0.55505204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].time
+    value: 0.4379854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].value
+    value: 0.20184326
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].inWeight
+    value: 0.2125613
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[1].outWeight
+    value: 0.18928729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].time
+    value: 0.7017062
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].value
+    value: 0.06427002
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].time
+    value: 0.99944013
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_Curve.Array.data[3].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveHeightByRiver.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].inSlope
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].outSlope
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].inSlope
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].outSlope
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveSideHeightByRiver.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].time
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].value
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].inSlope
+    value: -0.834525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].outSlope
+    value: -0.834525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].time
+    value: -0.83706963
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].value
+    value: 0.36403054
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].inSlope
+    value: -0.78628397
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].outSlope
+    value: -0.7778955
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].tangentMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[1].outWeight
+    value: 0.26080376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].time
+    value: -0.57767844
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].value
+    value: 0.26664552
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].inSlope
+    value: -0.14523172
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].outSlope
+    value: -0.26387668
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].tangentMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].inWeight
+    value: 0.25962085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[2].outWeight
+    value: 0.15090913
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].time
+    value: -0.2459366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].value
+    value: 0.19417691
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].inSlope
+    value: 0.045800395
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].outSlope
+    value: -0.09345708
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].tangentMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].inWeight
+    value: 0.24163723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[3].outWeight
+    value: 0.27694482
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].time
+    value: 0.235937
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].value
+    value: 0.14675266
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[4].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].time
+    value: 0.4743013
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].value
+    value: 0.105895996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].inWeight
+    value: 0.2125613
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[5].outWeight
+    value: 0.18928729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].time
+    value: 0.7076266
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].value
+    value: 0.10266113
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[6].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].time
+    value: 0.7852353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].value
+    value: 0.055516813
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].inSlope
+    value: -0.24161729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].outSlope
+    value: -0.24161729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[7].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].time
+    value: 0.99944013
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_Curve.Array.data[8].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: curveWidthByRiver.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scaleStepAnalises
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sandStartLvlHeight
+    value: -34
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

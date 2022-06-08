@@ -1,0 +1,819 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerrainCreater_Big_1024
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 729e67aea69733a489d0cce12893acb8, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: objects.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RawImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: width
+    value: 1024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: DualCounturing
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cellSize
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: MESH_SCALE
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightPlus
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: resolutionMesh
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SubMapColorized
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.r
+    value: 0.745283
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.g
+    value: 0.6383511
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.b
+    value: 0.18632075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.r
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.g
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.b
+    value: 0.13033998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.r
+    value: 0.27434677
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.g
+    value: 0.5377358
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.b
+    value: 0.088777125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key2.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.r
+    value: 0.26726592
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.g
+    value: 0.33884132
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.b
+    value: 0.3962264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key3.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key4.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key5.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key6.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime1
+    value: 2636
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime2
+    value: 4331
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime3
+    value: 25423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime4
+    value: 35278
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime5
+    value: 21531
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime1
+    value: 2511
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime2
+    value: 5147
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime3
+    value: 25486
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime4
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime5
+    value: 24479
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime6
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gradient.m_NumAlphaKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].inSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].outSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].time
+    value: 0.38669857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].value
+    value: 0.6325504
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].inSlope
+    value: 0.7363283
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].outSlope
+    value: 0.7363283
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[1].outWeight
+    value: 0.06827452
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].time
+    value: 0.7992153
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].value
+    value: 0.8759603
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].inSlope
+    value: 0.8803944
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].outSlope
+    value: 0.8803944
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[2].outWeight
+    value: 0.20009215
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].time
+    value: 0.9470692
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].value
+    value: 0.952946
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].inSlope
+    value: 0.8922582
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].outSlope
+    value: 0.8922582
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].inWeight
+    value: 0.3024148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[3].outWeight
+    value: 0.64864403
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_Curve.Array.data[4].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TypeNoise
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: seed
+    value: 964
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scale
+    value: 1.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: frequencyNoise
+    value: 0.88
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: octaves
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lacunarity
+    value: 2.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: amplitudeHieght
+    value: 76
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: persistenceAmplitude
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: basisTypeAcc
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fractalTypeAcc
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: interpolationTypeAcc
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gainAcc
+    value: 0.99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scaleRiver
+    value: 2.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: frequencyNoiseRiver
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: amplitudeHieghtRiver
+    value: 16
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: accuracyDetectRiver
+    value: 0.77
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].time
+    value: -0.39549
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].value
+    value: 3.3736353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].inSlope
+    value: -4.997311
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].outSlope
+    value: -4.997311
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].time
+    value: -0.30490282
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].value
+    value: 2.920943
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].inSlope
+    value: -4.970951
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].outSlope
+    value: -4.970951
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].time
+    value: -0.19200268
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].value
+    value: 2.362698
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].inSlope
+    value: -4.9445906
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].outSlope
+    value: -7.486818
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].tangentMode
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[2].outWeight
+    value: 0.13334365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].inSlope
+    value: -8.03371
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].outSlope
+    value: -8.03371
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[3].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].time
+    value: 0.098611005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].value
+    value: 0.11544633
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].inSlope
+    value: -2.2631967
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].outSlope
+    value: -3.2862117
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].tangentMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[4].outWeight
+    value: 0.24782221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].time
+    value: 0.19430147
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[5].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].time
+    value: 0.4155855
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].inWeight
+    value: 0.2125613
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[6].outWeight
+    value: 0.18928729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].time
+    value: 0.6932833
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[7].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].time
+    value: 0.99944013
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_Curve.Array.data[8].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightCurveRiver.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: updateRuntime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: updatePeriod
+    value: 10
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
